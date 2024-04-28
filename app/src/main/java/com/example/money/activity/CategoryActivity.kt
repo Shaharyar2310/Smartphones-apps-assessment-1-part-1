@@ -34,7 +34,7 @@ private lateinit var barChart: BarChart
 private lateinit var spinner: Spinner
 private lateinit var listView: ListView
 
-private var currency = "EURO"
+private var currency = "dollar"
 
 
 class CategoryActivity : AppCompatActivity() {
