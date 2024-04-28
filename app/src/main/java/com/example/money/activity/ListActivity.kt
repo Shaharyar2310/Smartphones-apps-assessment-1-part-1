@@ -39,7 +39,7 @@ class ListActivity : AppCompatActivity() {
     private var purchases = mutableListOf<Purchase>()
 
     private var i = 0
-    private var currency = "forint"
+    private var currency = "Euro"
 
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
