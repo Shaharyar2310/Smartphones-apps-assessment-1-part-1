@@ -104,7 +104,7 @@ class AboutActivity : AppCompatActivity() {
 
     private fun onWriteEmail(view: View) {
         val emailIntent = Intent(Intent.ACTION_SENDTO).apply {
-            data = Uri.parse("mailto:davidpokolol@gmail.com")
+            data = Uri.parse("mailto:sheri23102003@gmail.com")
 
             putExtra(Intent.EXTRA_SUBJECT, getString(R.string.bugfix_mail_subject))
         }
